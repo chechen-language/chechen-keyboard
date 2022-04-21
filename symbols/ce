@@ -1,0 +1,24 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    include "us(basic)"
+
+    name[Group1]= "Chechen (Latin, QWERTY, US)";
+
+    key <AE09> { [      9,      parenleft,      U00E7,      U00C7       ] }; // 9 ) ç Ç
+    key <AD01> { [      q,      Q,              U0307                   ] }; // q Q ◌̇ (Combining Dot Above with AltGr: q̇ Q̇)
+    key <AD07> { [      u,      U,		        udiaeresis, Udiaeresis  ] }; // u U ü Ü
+    key <AD09> { [      o,      O,              odiaeresis, Odiaeresis  ] }; // o O ö Ö
+    key <AD10> { [      p,      P,              U1E57,      U1E56		] }; // p P ṗ Ṗ
+
+    key <AC01> { [      a,      A,              adiaeresis, Adiaeresis  ] }; // a A ä Ä
+    key <AC02> { [      s,      S,              U015F,      U015E       ] }; // s S ş Ş
+    key <AC05> { [      g,      G,              U0121,      U0120       ] }; // g G ġ Ġ
+    key <AC08> { [      k,      K,              U0307                   ] }; // k K ◌̇ (Combining Dot Above with AltGr: k̇ K̇)
+    key <AB03> { [      c,      C,              ccedilla,   Ccedilla    ] }; // c C ç Ç
+
+//    key <AC11> {	[ apostrophe,	quotedbl,   U0307]	}; // Combining Dot Above with AltGr
+
+    include "level3(ralt_switch)"
+};
+
