@@ -1,3 +1,7 @@
+// Symbols definition for a Chechen keyboard layout.
+// Based on the Resolution of the Parliament of the Chechen Republic on the approval of the Chechen alphabet based on Latin script, 15 October 1992, No. 209.
+// gushmazuko <gushmazuko@protonmail.com>
+
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
 
@@ -6,19 +10,23 @@ xkb_symbols "basic" {
     name[Group1]= "Chechen (Latin, QWERTY, US)";
 
     key <AE09> { [      9,      parenleft,      U00E7,      U00C7       ] }; // 9 ) ç Ç
+
     key <AD01> { [      q,      Q,              U0307                   ] }; // q Q ◌̇ (Combining Dot Above with AltGr: q̇ Q̇)
-    key <AD07> { [      u,      U,		        udiaeresis, Udiaeresis  ] }; // u U ü Ü
+    key <AD07> { [      u,      U,              udiaeresis, Udiaeresis  ] }; // u U ü Ü
     key <AD09> { [      o,      O,              odiaeresis, Odiaeresis  ] }; // o O ö Ö
-    key <AD10> { [      p,      P,              U1E57,      U1E56		] }; // p P ṗ Ṗ
+    key <AD10> { [      p,      P,              pabovedot,  Pabovedot   ] }; // p P ṗ Ṗ
 
     key <AC01> { [      a,      A,              adiaeresis, Adiaeresis  ] }; // a A ä Ä
-    key <AC02> { [      s,      S,              U015F,      U015E       ] }; // s S ş Ş
-    key <AC05> { [      g,      G,              U0121,      U0120       ] }; // g G ġ Ġ
+    key <AC02> { [      s,      S,              scedilla,   Scedilla    ] }; // s S ş Ş
+    key <AC05> { [      g,      G,              gabovedot,  Gabovedot   ] }; // g G ġ Ġ
     key <AC08> { [      k,      K,              U0307                   ] }; // k K ◌̇ (Combining Dot Above with AltGr: k̇ K̇)
-    key <AB03> { [      c,      C,              ccedilla,   Ccedilla    ] }; // c C ç Ç
+    
+    key <AB01> { [      z,      Z,              zstroke,    Zstroke     ] }; // z Z ƶ Ƶ
+    key <AB02> { [      x,      X,              xabovedot,  Xabovedot   ] }; // x X ẋ Ẋ
+    key <AB03> { [      c,      C,              cabovedot,  Cabovedot   ] }; // c C ċ Ċ
+    key <AB06> { [      n,      N,              eng,        ENG         ] }; // n N ŋ Ŋ
 
 //    key <AC11> {	[ apostrophe,	quotedbl,   U0307]	}; // Combining Dot Above with AltGr
 
     include "level3(ralt_switch)"
 };
-
