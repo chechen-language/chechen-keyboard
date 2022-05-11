@@ -1,5 +1,7 @@
 # Chechen Latin Keyboard Layout
 
+[![](https://img.shields.io/badge/GitLab-Mirror-succes?link=https://gitlab.com/gushmazuko/chechen-latin-keyboard-layout)](https://gitlab.com/gushmazuko/chechen-latin-keyboard-layout)
+
 Chechen Latin Keyboard Layout for xkeyboard-config (UNIX)
 
 
@@ -12,7 +14,38 @@ N n Ŋ ŋ O o Ö ö P p Ṗ ṗ Q q Q̇ q̇ R r S s
 ```
 
 
+## Letters to add in latin layout
+
+- [x] Ä ä
+- [ ] Ċ ċ
+- [x] Ç ç
+- [ ] Ç̇ ç̇
+- [ ] Ə ə
+- [x] Ġ ġ
+- [ ] K̇ k̇
+- [x] Ŋ ŋ
+- [x] Ö ö
+- [x] Ṗ ṗ
+- [ ] Q̇ q̇
+- [x] Ş ş
+- [x] Ṫ ṫ
+- [x] Ü ü
+- [x] Ẋ ẋ
+- [x] Ƶ ƶ
+
+
 ## Letters missed on Unicode
+### Q̇ q̇
+- Name: Letter Q with Dot Above
+
+[ref1](http://www.personal.psu.edu/ejp10/blogs/gotunicode/2008/11/glyph-du-jour-thermodynamic-q-.html#:~:text=It's%20a%20capital%20Q%20with,these%20DO%20exist%20in%20Unicode), [ref2](https://fr.wikipedia.org/wiki/Q%CC%87)
+
+### K̇ k̇
+- Name: Letter K with Dot Above
+[ref1](https://fr.wikipedia.org/wiki/K%CC%87) (ref2 - [Letter K with Dot Below exists](https://www.compart.com/en/unicode/U+1E32))
+
+### Ç̇ ç̇
+- Name Letter C with with Cedilla and Dot Above
 
 
 ## Links
