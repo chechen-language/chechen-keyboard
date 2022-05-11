@@ -12,6 +12,7 @@ xkb_symbols "basic" {
     key <AE09> { [      9,      parenleft,      U00E7,      U00C7       ] }; // 9 ) ç Ç
 
     key <AD01> { [      q,      Q,              U0307                   ] }; // q Q ◌̇ (Combining Dot Above with AltGr: q̇ Q̇)
+    key <AD05> { [      t,      T               tabovedot   tabovedot   ] }; // t T ṫ Ṫ 
     key <AD07> { [      u,      U,              udiaeresis, Udiaeresis  ] }; // u U ü Ü
     key <AD09> { [      o,      O,              odiaeresis, Odiaeresis  ] }; // o O ö Ö
     key <AD10> { [      p,      P,              pabovedot,  Pabovedot   ] }; // p P ṗ Ṗ
