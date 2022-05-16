@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     name[Group1]= "Chechen (Latin, QWERTY, US)";
 
-    key <AE09> { [      9,      parenleft,      U00E7,      U00C7       ] }; // 9 ) ç Ç
+    key <AE09> { [      9,      parenleft,      ccedilla,   Ccedilla    ] }; // 9 ) ç Ç
 
     key <AD01> { [      q,      Q,              U0307                   ] }; // q Q ◌̇ (Combining Dot Above with AltGr: q̇ Q̇)
     key <AD03> { [      e,      E,              schwa,      SCHWA       ] }; // e E ə Ə
@@ -27,6 +27,7 @@ xkb_symbols "basic" {
     key <AB02> { [      x,      X,              xabovedot,  Xabovedot   ] }; // x X ẋ Ẋ
     key <AB03> { [      c,      C,              cabovedot,  Cabovedot   ] }; // c C ċ Ċ
     key <AB06> { [      n,      N,              eng,        ENG         ] }; // n N ŋ Ŋ
+    key <AB09> { [      period, greater,        U0307                   ] }; // . > ◌̇ (Combining Dot Above with AltGr for any letter)
 
 //    key <AC11> {	[ apostrophe,	quotedbl,   U0307]	}; // Combining Dot Above with AltGr
 
