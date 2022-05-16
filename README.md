@@ -17,10 +17,10 @@ N n Ŋ ŋ O o Ö ö P p Ṗ ṗ Q q Q̇ q̇ R r S s
 ## Letters to add in latin layout
 
 - [x] Ä ä
-- [ ] Ċ ċ
+- [x] Ċ ċ
 - [x] Ç ç
 - [ ] Ç̇ ç̇
-- [ ] Ə ə
+- [x] Ə ə
 - [x] Ġ ġ
 - [ ] K̇ k̇
 - [x] Ŋ ŋ
