@@ -15,18 +15,17 @@ N n Ŋ ŋ O o Ö ö P p Ṗ ṗ Q q Q̇ q̇ R r S s
 
 
 ## Letters to add in latin layout
-
 - [x] Ä ä
 - [x] Ċ ċ
 - [x] Ç ç
-- [ ] Ç̇ ç̇
+- [x] Ç̇ ç̇
 - [x] Ə ə
 - [x] Ġ ġ
-- [ ] K̇ k̇
+- [x] K̇ k̇
 - [x] Ŋ ŋ
 - [x] Ö ö
 - [x] Ṗ ṗ
-- [ ] Q̇ q̇
+- [x] Q̇ q̇
 - [x] Ş ş
 - [x] Ṫ ṫ
 - [x] Ü ü
@@ -35,18 +34,22 @@ N n Ŋ ŋ O o Ö ö P p Ṗ ṗ Q q Q̇ q̇ R r S s
 
 
 ## Letters missed on Unicode
-### Q̇ q̇
-- Name: Letter Q with Dot Above
+Letters missed on Unicode are composed fallowing the `Unicode Normalization Form C` ([NFC](https://unicode.org/reports/tr15/#:~:text=Normalization%20Form%20C%20uses%20canonical,already%20in%20Normalization%20Form%20C.)) 
 
-[ref1](http://www.personal.psu.edu/ejp10/blogs/gotunicode/2008/11/glyph-du-jour-thermodynamic-q-.html#:~:text=It's%20a%20capital%20Q%20with,these%20DO%20exist%20in%20Unicode), [ref2](https://fr.wikipedia.org/wiki/Q%CC%87)
+### Q̇ q̇
+- **Name**: Letter Q with Dot Above - [ref1](http://www.personal.psu.edu/ejp10/blogs/gotunicode/2008/11/glyph-du-jour-thermodynamic-q-.html#:~:text=It's%20a%20capital%20Q%20with,these%20DO%20exist%20in%20Unicode), [ref2](https://fr.wikipedia.org/wiki/Q%CC%87)
+- **Composition**: q + ◌̇
+- **Keys used**: `q` + `q` with pressed `AltGr` or `q` + `.` with pressed `AltGr`
 
 ### K̇ k̇
-- Name: Letter K with Dot Above
-[ref1](https://fr.wikipedia.org/wiki/K%CC%87) (ref2 - [Letter K with Dot Below exists](https://www.compart.com/en/unicode/U+1E32))
+- **Name**: Letter K with Dot Above - [ref1](https://fr.wikipedia.org/wiki/K%CC%87), [ref2](https://www.compart.com/en/unicode/U+1E32)
+- **Composition**: k + ◌̇
+- **Keys used**: `k` + `k` with pressed `AltGr` or `k` + `.` with pressed `AltGr`
 
 ### Ç̇ ç̇
-- Name Letter C with with Cedilla and Dot Above
-
+- **Name**: Letter C with with Cedilla and Dot Above - [ref1](https://fr.wikipedia.org/wiki/%C3%87%CC%87)
+- **Composotion**: ç + ◌̇
+- **Keys used**: `9` with pressed `AltGr` + `.` with pressed `AltGr`
 
 ## Links
 - [UNICODE NORMALIZATION FORMS](https://unicode.org/reports/tr15/)
