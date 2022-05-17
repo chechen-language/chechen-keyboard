@@ -29,7 +29,5 @@ xkb_symbols "basic" {
     key <AB06> { [      n,      N,              eng,        ENG         ] }; // n N ŋ Ŋ
     key <AB09> { [      period, greater,        U0307                   ] }; // . > ◌̇ (Combining Dot Above with AltGr for any letter)
 
-//    key <AC11> {	[ apostrophe,	quotedbl,   U0307]	}; // Combining Dot Above with AltGr
-
     include "level3(ralt_switch)"
 };
