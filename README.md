@@ -51,6 +51,12 @@ Letters missed on Unicode are composed fallowing the `Unicode Normalization Form
 - **Composotion**: ç + ◌̇
 - **Keys used**: `9` with pressed `AltGr` + `.` with pressed `AltGr`
 
+
+## Layouts
+### QWERTY, US
+![QWERTY, US](https://i.imgur.com/OTRx3Hq.png)
+
+
 ## Links
 - [UNICODE NORMALIZATION FORMS](https://unicode.org/reports/tr15/)
 - [Unicode characters](https://www.compart.com/en/unicode/)

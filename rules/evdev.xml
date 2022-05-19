@@ -1,0 +1,11 @@
+    <layout>
+      <configItem>
+        <name>ce</name>
+        <!-- Keyboard indicator for Chechen layouts -->
+        <shortDescription>ce</shortDescription>
+        <description>Chechen (Latin, QWERTY, US)</description>
+        <languageList>
+          <iso639Id>che</iso639Id>
+        </languageList>
+      </configItem>
+    </layout>
