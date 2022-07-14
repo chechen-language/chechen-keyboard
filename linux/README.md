@@ -39,17 +39,17 @@ Letters missed on Unicode are composed fallowing the `Unicode Normalization Form
 ### Q̇ q̇
 - **Name**: Letter Q with Dot Above - [ref1](http://www.personal.psu.edu/ejp10/blogs/gotunicode/2008/11/glyph-du-jour-thermodynamic-q-.html#:~:text=It's%20a%20capital%20Q%20with,these%20DO%20exist%20in%20Unicode), [ref2](https://fr.wikipedia.org/wiki/Q%CC%87)
 - **Composition**: q + ◌̇
-- **Keys used**: `q` + `q` with pressed `AltGr` or `q` + `.` with pressed `AltGr`
+- **Keys used to insert the letter**: `q` + `q` with pressed `AltGr` or `q` + `.` with pressed `AltGr`
 
 ### K̇ k̇
 - **Name**: Letter K with Dot Above - [ref1](https://fr.wikipedia.org/wiki/K%CC%87), [ref2](https://www.compart.com/en/unicode/U+1E32)
 - **Composition**: k + ◌̇
-- **Keys used**: `k` + `k` with pressed `AltGr` or `k` + `.` with pressed `AltGr`
+- **Keys used to insert the letter**: `k` + `k` with pressed `AltGr` or `k` + `.` with pressed `AltGr`
 
 ### Ç̇ ç̇
-- **Name**: Letter C with with Cedilla and Dot Above - [ref1](https://fr.wikipedia.org/wiki/%C3%87%CC%87)
+- **Name**: Letter C with Cedilla and Dot Above - [ref1](https://fr.wikipedia.org/wiki/%C3%87%CC%87)
 - **Composotion**: ç + ◌̇
-- **Keys used**: `9` with pressed `AltGr` + `.` with pressed `AltGr`
+- **Keys used to insert the letter**: `9` with pressed `AltGr` + `.` with pressed `AltGr`
 
 
 ## Layouts

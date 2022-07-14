@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 xkb_path="/usr/share/X11/xkb"
 
 if [[ ! -d ${xkb_path} ]] ; then
-    echo "File ${xkb_path} is not there, aborting. Check you xkeyboard-config installation."
+    echo "Directory ${xkb_path} is not there, aborting. Check you xkeyboard-config installation."
     exit
 fi
 
