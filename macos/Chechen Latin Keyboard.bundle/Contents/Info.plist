@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.chechenlatinkeyboard</string>
+	<key>CFBundleName</key>
+	<string>Chechen Latin Keyboard</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>KLInfo_Chechen (Latin, QWERTY, US)</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.chechenlatinkeyboard.chechen(latin,qwerty,us)</string>
+		<key>TISIntendedLanguage</key>
+		<string>ce</string>
+	</dict>
+</dict>
+</plist>
