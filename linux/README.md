@@ -38,17 +38,20 @@ Letters missed on Unicode are composed fallowing the `Unicode Normalization Form
 
 ### Q̇ q̇
 - **Name**: Letter Q with Dot Above - [ref1](http://www.personal.psu.edu/ejp10/blogs/gotunicode/2008/11/glyph-du-jour-thermodynamic-q-.html#:~:text=It's%20a%20capital%20Q%20with,these%20DO%20exist%20in%20Unicode), [ref2](https://fr.wikipedia.org/wiki/Q%CC%87)
-- **Composition**: q + ◌̇
+- **Composition**: `q` + `̇`
+- **Unicode**: [`U+0071`](https://www.compart.com/en/unicode/U+0071) + [`U+0307`](https://www.compart.com/en/unicode/U+0307)
 - **Keys used to insert the letter**: `q` + `q` with pressed `AltGr` or `q` + `.` with pressed `AltGr`
 
 ### K̇ k̇
 - **Name**: Letter K with Dot Above - [ref1](https://fr.wikipedia.org/wiki/K%CC%87), [ref2](https://www.compart.com/en/unicode/U+1E32)
-- **Composition**: k + ◌̇
+- **Composition**: `k` + `̇`
+- **Unicode**: [U+006B`](https://www.compart.com/en/unicode/U+006B) + [`U+0307`](https://www.compart.com/en/unicode/U+0307)
 - **Keys used to insert the letter**: `k` + `k` with pressed `AltGr` or `k` + `.` with pressed `AltGr`
 
 ### Ç̇ ç̇
 - **Name**: Letter C with Cedilla and Dot Above - [ref1](https://fr.wikipedia.org/wiki/%C3%87%CC%87)
-- **Composotion**: ç + ◌̇
+- **Composotion**: `ç` + `̇`
+- **Unicode**: [`U+00E7`](https://www.compart.com/en/unicode/U+00E7) + [`U+0307`](https://www.compart.com/en/unicode/U+0307)
 - **Keys used to insert the letter**: `9` with pressed `AltGr` + `.` with pressed `AltGr`
 
 
@@ -60,6 +63,7 @@ Letters missed on Unicode are composed fallowing the `Unicode Normalization Form
 ## Links
 - [UNICODE NORMALIZATION FORMS](https://unicode.org/reports/tr15/)
 - [Unicode characters](https://www.compart.com/en/unicode/)
+- [Graphemica - characters and symbols](https://graphemica.com/)
 
 
 ## References
