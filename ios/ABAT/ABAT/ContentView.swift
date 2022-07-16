@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Chechen Latin Keyboard
+//  ABAT
 //
-//  Created by Yusuf Khasbulatov on 12.07.22.
+//  Created by Yusuf Khasbulatov on 16.07.22.
 //
 
 import SwiftUI

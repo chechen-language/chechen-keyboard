@@ -1,8 +1,8 @@
 //
 //  KeyboardViewController.swift
-//  Custom Keyboard
+//  Chechen Latin Keyboard
 //
-//  Created by Yusuf Khasbulatov on 14.07.22.
+//  Created by Yusuf Khasbulatov on 16.07.22.
 //
 
 import UIKit
