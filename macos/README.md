@@ -22,14 +22,6 @@
 </p>
 
 
-## Letters missed in the layout
-### Ç̇ ç̇
-- **Name**: Letter C with Cedilla and Dot Above - [ref1](https://fr.wikipedia.org/wiki/%C3%87%CC%87)
-- **Composotion**: `ç` + `̇`
-- **Unicode**: [`U+00E7`](https://www.compart.com/en/unicode/U+00E7) + [`U+0307`](https://www.compart.com/en/unicode/U+0307)
-- **Keys used to insert the letter**: `9` with pressed `⌥` (Option) + `.` with pressed `⌥` (Option)
-
-
 ## Installation
 ### 1.0 Downloading and install
 - **Download** this repository on your computer, as ZIP archive.

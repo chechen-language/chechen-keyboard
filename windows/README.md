@@ -1,4 +1,4 @@
-# Chechen Latin Keyboard Layout for Linux
+# Chechen Latin Keyboard Layout for Windows
 
 
 ## Layouts
