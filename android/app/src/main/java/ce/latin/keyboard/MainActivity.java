@@ -1,5 +1,7 @@
 package ce.latin.keyboard;
 
+import com.tavultesoft.kmea.KMManager;
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.CheckBox;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +36,18 @@ public class MainActivity extends AppCompatActivity {
       public void onClick(View v) {
         InputMethodManager imManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         imManager.showInputMethodPicker();
+      }
+    });
+
+    CheckBox toggleVibrate = (CheckBox) findViewById(R.id.toggleVibrateOnTyping);
+    toggleVibrate.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        if (toggleVibrate.isChecked()) {
+          KMManager.setHapticFeedback(true);
+        } else {
+          KMManager.setHapticFeedback(false);
+        }
       }
     });
   }
