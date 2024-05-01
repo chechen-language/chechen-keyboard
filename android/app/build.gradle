@@ -4,12 +4,11 @@ plugins {
 }
 
 def versionMajor = 1
-def versionMinor = 0
+def versionMinor = 1
 def versionPatch = 2
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.2"
+    compileSdkVersion 33
 
     // Don't compress kmp files so they can be copied via AssetManager
     aaptOptions {
@@ -23,7 +22,7 @@ android {
     defaultConfig {
         applicationId "ce.latin.keyboard"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode versionMajor * 10000 + versionMinor * 100 + versionPatch
         versionName "${versionMajor}.${versionMinor}.${versionPatch}"
     }
