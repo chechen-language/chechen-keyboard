@@ -1,0 +1,4 @@
+framework module DeviceKit {
+  header "DeviceKit-Swift.h"
+  requires objc
+}

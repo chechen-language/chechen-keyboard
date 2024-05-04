@@ -1,0 +1,19 @@
+{
+  "commitish" : "0.9.17",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "13f38ab3d4a79c51c3c30b88a42ac77fe24a45f265be0db46393423199aa74a0",
+      "name" : "ZIPFoundation",
+      "container" : "ZIPFoundation.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "d4ce2b7ab6feda2077a99dc09fbf45c645e6a85397447e2c1c595ab39d46f8e4",
+      "name" : "ZIPFoundation",
+      "container" : "ZIPFoundation.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

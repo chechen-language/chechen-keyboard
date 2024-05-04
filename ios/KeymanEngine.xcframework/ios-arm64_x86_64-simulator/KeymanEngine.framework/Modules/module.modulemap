@@ -1,0 +1,4 @@
+framework module KeymanEngine {
+  header "KeymanEngine-Swift.h"
+  requires objc
+}

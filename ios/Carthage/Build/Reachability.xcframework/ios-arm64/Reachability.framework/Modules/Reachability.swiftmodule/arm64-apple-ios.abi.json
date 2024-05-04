@@ -1,0 +1,1857 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "Reachability",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Reachability"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReachabilityError",
+        "printedName": "ReachabilityError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToCreateWithAddress",
+            "printedName": "failedToCreateWithAddress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Reachability.ReachabilityError.Type) -> (Darwin.sockaddr, Swift.Int32) -> Reachability.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Darwin.sockaddr, Swift.Int32) -> Reachability.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Darwin.sockaddr, Swift.Int32)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "sockaddr",
+                            "printedName": "Darwin.sockaddr",
+                            "usr": "c:@S@sockaddr"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int32",
+                            "printedName": "Swift.Int32",
+                            "usr": "s:s5Int32V"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Reachability.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Reachability0A5ErrorO25failedToCreateWithAddressyACSo8sockaddrV_s5Int32VtcACmF",
+            "mangledName": "$s12Reachability0A5ErrorO25failedToCreateWithAddressyACSo8sockaddrV_s5Int32VtcACmF",
+            "moduleName": "Reachability"
+          },
+          {
+            "kind": "Var",
+            "name": "failedToCreateWithHostname",
+            "printedName": "failedToCreateWithHostname",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Reachability.ReachabilityError.Type) -> (Swift.String, Swift.Int32) -> Reachability.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.Int32) -> Reachability.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.Int32)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int32",
+                            "printedName": "Swift.Int32",
+                            "usr": "s:s5Int32V"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Reachability.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Reachability0A5ErrorO26failedToCreateWithHostnameyACSS_s5Int32VtcACmF",
+            "mangledName": "$s12Reachability0A5ErrorO26failedToCreateWithHostnameyACSS_s5Int32VtcACmF",
+            "moduleName": "Reachability"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToSetCallback",
+            "printedName": "unableToSetCallback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Reachability.ReachabilityError.Type) -> (Swift.Int32) -> Reachability.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int32) -> Reachability.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Reachability.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Reachability0A5ErrorO19unableToSetCallbackyACs5Int32VcACmF",
+            "mangledName": "$s12Reachability0A5ErrorO19unableToSetCallbackyACs5Int32VcACmF",
+            "moduleName": "Reachability"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToSetDispatchQueue",
+            "printedName": "unableToSetDispatchQueue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Reachability.ReachabilityError.Type) -> (Swift.Int32) -> Reachability.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int32) -> Reachability.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Reachability.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Reachability0A5ErrorO24unableToSetDispatchQueueyACs5Int32VcACmF",
+            "mangledName": "$s12Reachability0A5ErrorO24unableToSetDispatchQueueyACs5Int32VcACmF",
+            "moduleName": "Reachability"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToGetFlags",
+            "printedName": "unableToGetFlags",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Reachability.ReachabilityError.Type) -> (Swift.Int32) -> Reachability.ReachabilityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int32) -> Reachability.ReachabilityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Reachability.ReachabilityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReachabilityError",
+                        "printedName": "Reachability.ReachabilityError",
+                        "usr": "s:12Reachability0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Reachability0A5ErrorO16unableToGetFlagsyACs5Int32VcACmF",
+            "mangledName": "$s12Reachability0A5ErrorO16unableToGetFlagsyACs5Int32VcACmF",
+            "moduleName": "Reachability"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12Reachability0A5ErrorO",
+        "mangledName": "$s12Reachability0A5ErrorO",
+        "moduleName": "Reachability",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Reachability",
+        "printedName": "Reachability",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Connection",
+            "printedName": "Connection",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Reachability.Reachability.Connection.Type) -> Reachability.Reachability.Connection",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "Reachability.Reachability.Connection",
+                        "usr": "s:12ReachabilityAAC10ConnectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Reachability.Reachability.Connection.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Connection",
+                            "printedName": "Reachability.Reachability.Connection",
+                            "usr": "s:12ReachabilityAAC10ConnectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12ReachabilityAAC10ConnectionO4noneyA2DmF",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO4noneyA2DmF",
+                "moduleName": "Reachability",
+                "deprecated": true,
+                "declAttributes": [
+                  "Available"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "unavailable",
+                "printedName": "unavailable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Reachability.Reachability.Connection.Type) -> Reachability.Reachability.Connection",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "Reachability.Reachability.Connection",
+                        "usr": "s:12ReachabilityAAC10ConnectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Reachability.Reachability.Connection.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Connection",
+                            "printedName": "Reachability.Reachability.Connection",
+                            "usr": "s:12ReachabilityAAC10ConnectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12ReachabilityAAC10ConnectionO11unavailableyA2DmF",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO11unavailableyA2DmF",
+                "moduleName": "Reachability"
+              },
+              {
+                "kind": "Var",
+                "name": "wifi",
+                "printedName": "wifi",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Reachability.Reachability.Connection.Type) -> Reachability.Reachability.Connection",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "Reachability.Reachability.Connection",
+                        "usr": "s:12ReachabilityAAC10ConnectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Reachability.Reachability.Connection.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Connection",
+                            "printedName": "Reachability.Reachability.Connection",
+                            "usr": "s:12ReachabilityAAC10ConnectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12ReachabilityAAC10ConnectionO4wifiyA2DmF",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO4wifiyA2DmF",
+                "moduleName": "Reachability"
+              },
+              {
+                "kind": "Var",
+                "name": "cellular",
+                "printedName": "cellular",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Reachability.Reachability.Connection.Type) -> Reachability.Reachability.Connection",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Connection",
+                        "printedName": "Reachability.Reachability.Connection",
+                        "usr": "s:12ReachabilityAAC10ConnectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Reachability.Reachability.Connection.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Connection",
+                            "printedName": "Reachability.Reachability.Connection",
+                            "usr": "s:12ReachabilityAAC10ConnectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12ReachabilityAAC10ConnectionO8cellularyA2DmF",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO8cellularyA2DmF",
+                "moduleName": "Reachability"
+              },
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ReachabilityAAC10ConnectionO11descriptionSSvp",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO11descriptionSSvp",
+                "moduleName": "Reachability",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ReachabilityAAC10ConnectionO11descriptionSSvg",
+                    "mangledName": "$s12ReachabilityAAC10ConnectionO11descriptionSSvg",
+                    "moduleName": "Reachability",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "Reachability.Reachability.Connection",
+                    "usr": "s:12ReachabilityAAC10ConnectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "Reachability.Reachability.Connection",
+                    "usr": "s:12ReachabilityAAC10ConnectionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12ReachabilityAAC10ConnectionO2eeoiySbAD_ADtFZ",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO2eeoiySbAD_ADtFZ",
+                "moduleName": "Reachability",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ReachabilityAAC10ConnectionO9hashValueSivp",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO9hashValueSivp",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ReachabilityAAC10ConnectionO9hashValueSivg",
+                    "mangledName": "$s12ReachabilityAAC10ConnectionO9hashValueSivg",
+                    "moduleName": "Reachability",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12ReachabilityAAC10ConnectionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s12ReachabilityAAC10ConnectionO4hash4intoys6HasherVz_tF",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12ReachabilityAAC10ConnectionO",
+            "mangledName": "$s12ReachabilityAAC10ConnectionO",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "whenReachable",
+            "printedName": "whenReachable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Reachability.Reachability) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Reachability.Reachability) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reachability",
+                        "printedName": "Reachability.Reachability",
+                        "usr": "s:12ReachabilityAAC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC13whenReachableyABcSgvp",
+            "mangledName": "$s12ReachabilityAAC13whenReachableyABcSgvp",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Reachability.Reachability) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Reachability.Reachability) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reachability",
+                            "printedName": "Reachability.Reachability",
+                            "usr": "s:12ReachabilityAAC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC13whenReachableyABcSgvg",
+                "mangledName": "$s12ReachabilityAAC13whenReachableyABcSgvg",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Reachability.Reachability) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Reachability.Reachability) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reachability",
+                            "printedName": "Reachability.Reachability",
+                            "usr": "s:12ReachabilityAAC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC13whenReachableyABcSgvs",
+                "mangledName": "$s12ReachabilityAAC13whenReachableyABcSgvs",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC13whenReachableyABcSgvM",
+                "mangledName": "$s12ReachabilityAAC13whenReachableyABcSgvM",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "whenUnreachable",
+            "printedName": "whenUnreachable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Reachability.Reachability) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Reachability.Reachability) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reachability",
+                        "printedName": "Reachability.Reachability",
+                        "usr": "s:12ReachabilityAAC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC15whenUnreachableyABcSgvp",
+            "mangledName": "$s12ReachabilityAAC15whenUnreachableyABcSgvp",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Reachability.Reachability) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Reachability.Reachability) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reachability",
+                            "printedName": "Reachability.Reachability",
+                            "usr": "s:12ReachabilityAAC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC15whenUnreachableyABcSgvg",
+                "mangledName": "$s12ReachabilityAAC15whenUnreachableyABcSgvg",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Reachability.Reachability) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Reachability.Reachability) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reachability",
+                            "printedName": "Reachability.Reachability",
+                            "usr": "s:12ReachabilityAAC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC15whenUnreachableyABcSgvs",
+                "mangledName": "$s12ReachabilityAAC15whenUnreachableyABcSgvs",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC15whenUnreachableyABcSgvM",
+                "mangledName": "$s12ReachabilityAAC15whenUnreachableyABcSgvM",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reachableOnWWAN",
+            "printedName": "reachableOnWWAN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC15reachableOnWWANSbvp",
+            "mangledName": "$s12ReachabilityAAC15reachableOnWWANSbvp",
+            "moduleName": "Reachability",
+            "deprecated": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Available"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC15reachableOnWWANSbvg",
+                "mangledName": "$s12ReachabilityAAC15reachableOnWWANSbvg",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowsCellularConnection",
+            "printedName": "allowsCellularConnection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC24allowsCellularConnectionSbvp",
+            "mangledName": "$s12ReachabilityAAC24allowsCellularConnectionSbvp",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC24allowsCellularConnectionSbvg",
+                "mangledName": "$s12ReachabilityAAC24allowsCellularConnectionSbvg",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC24allowsCellularConnectionSbvs",
+                "mangledName": "$s12ReachabilityAAC24allowsCellularConnectionSbvs",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC24allowsCellularConnectionSbvM",
+                "mangledName": "$s12ReachabilityAAC24allowsCellularConnectionSbvM",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationCenter",
+            "printedName": "notificationCenter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationCenter",
+                "printedName": "Foundation.NotificationCenter",
+                "usr": "c:objc(cs)NSNotificationCenter"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC18notificationCenterSo014NSNotificationC0Cvp",
+            "mangledName": "$s12ReachabilityAAC18notificationCenterSo014NSNotificationC0Cvp",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationCenter",
+                    "printedName": "Foundation.NotificationCenter",
+                    "usr": "c:objc(cs)NSNotificationCenter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC18notificationCenterSo014NSNotificationC0Cvg",
+                "mangledName": "$s12ReachabilityAAC18notificationCenterSo014NSNotificationC0Cvg",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationCenter",
+                    "printedName": "Foundation.NotificationCenter",
+                    "usr": "c:objc(cs)NSNotificationCenter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC18notificationCenterSo014NSNotificationC0Cvs",
+                "mangledName": "$s12ReachabilityAAC18notificationCenterSo014NSNotificationC0Cvs",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC18notificationCenterSo014NSNotificationC0CvM",
+                "mangledName": "$s12ReachabilityAAC18notificationCenterSo014NSNotificationC0CvM",
+                "moduleName": "Reachability",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentReachabilityString",
+            "printedName": "currentReachabilityString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC07currentA6StringSSvp",
+            "mangledName": "$s12ReachabilityAAC07currentA6StringSSvp",
+            "moduleName": "Reachability",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC07currentA6StringSSvg",
+                "mangledName": "$s12ReachabilityAAC07currentA6StringSSvg",
+                "moduleName": "Reachability",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connection",
+            "printedName": "connection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Connection",
+                "printedName": "Reachability.Reachability.Connection",
+                "usr": "s:12ReachabilityAAC10ConnectionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC10connectionAB10ConnectionOvp",
+            "mangledName": "$s12ReachabilityAAC10connectionAB10ConnectionOvp",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Connection",
+                    "printedName": "Reachability.Reachability.Connection",
+                    "usr": "s:12ReachabilityAAC10ConnectionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC10connectionAB10ConnectionOvg",
+                "mangledName": "$s12ReachabilityAAC10connectionAB10ConnectionOvg",
+                "moduleName": "Reachability",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(reachabilityRef:queueQoS:targetQueue:notificationQueue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Reachability",
+                "printedName": "Reachability.Reachability",
+                "usr": "s:12ReachabilityAAC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNetworkReachability",
+                "printedName": "SystemConfiguration.SCNetworkReachability",
+                "usr": "c:@T@SCNetworkReachabilityRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ReachabilityAAC15reachabilityRef8queueQoS11targetQueue012notificationG0ABSo09SCNetworkaC0a_8Dispatch0jE1SVSo012OS_dispatch_D0CSgANtcfc",
+            "mangledName": "$s12ReachabilityAAC15reachabilityRef8queueQoS11targetQueue012notificationG0ABSo09SCNetworkaC0a_8Dispatch0jE1SVSo012OS_dispatch_D0CSgANtcfc",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hostname:queueQoS:targetQueue:notificationQueue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Reachability",
+                "printedName": "Reachability.Reachability",
+                "usr": "s:12ReachabilityAAC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ReachabilityAAC8hostname8queueQoS11targetQueue012notificationF0ABSS_8Dispatch0hD1SVSo012OS_dispatch_C0CSgALtKcfc",
+            "mangledName": "$s12ReachabilityAAC8hostname8queueQoS11targetQueue012notificationF0ABSS_8Dispatch0hD1SVSo012OS_dispatch_C0CSgALtKcfc",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(queueQoS:targetQueue:notificationQueue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Reachability",
+                "printedName": "Reachability.Reachability",
+                "usr": "s:12ReachabilityAAC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ReachabilityAAC8queueQoS11targetQueue012notificationE0AB8Dispatch0gC1SV_So012OS_dispatch_B0CSgAKtKcfc",
+            "mangledName": "$s12ReachabilityAAC8queueQoS11targetQueue012notificationE0AB8Dispatch0gC1SV_So012OS_dispatch_B0CSgAKtKcfc",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "startNotifier",
+            "printedName": "startNotifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ReachabilityAAC13startNotifieryyKF",
+            "mangledName": "$s12ReachabilityAAC13startNotifieryyKF",
+            "moduleName": "Reachability",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopNotifier",
+            "printedName": "stopNotifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ReachabilityAAC12stopNotifieryyF",
+            "mangledName": "$s12ReachabilityAAC12stopNotifieryyF",
+            "moduleName": "Reachability",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isReachable",
+            "printedName": "isReachable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC11isReachableSbvp",
+            "mangledName": "$s12ReachabilityAAC11isReachableSbvp",
+            "moduleName": "Reachability",
+            "deprecated": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC11isReachableSbvg",
+                "mangledName": "$s12ReachabilityAAC11isReachableSbvg",
+                "moduleName": "Reachability",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachableViaWWAN",
+            "printedName": "isReachableViaWWAN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC18isReachableViaWWANSbvp",
+            "mangledName": "$s12ReachabilityAAC18isReachableViaWWANSbvp",
+            "moduleName": "Reachability",
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC18isReachableViaWWANSbvg",
+                "mangledName": "$s12ReachabilityAAC18isReachableViaWWANSbvg",
+                "moduleName": "Reachability",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachableViaWiFi",
+            "printedName": "isReachableViaWiFi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC18isReachableViaWiFiSbvp",
+            "mangledName": "$s12ReachabilityAAC18isReachableViaWiFiSbvp",
+            "moduleName": "Reachability",
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC18isReachableViaWiFiSbvg",
+                "mangledName": "$s12ReachabilityAAC18isReachableViaWiFiSbvg",
+                "moduleName": "Reachability",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ReachabilityAAC11descriptionSSvp",
+            "mangledName": "$s12ReachabilityAAC11descriptionSSvp",
+            "moduleName": "Reachability",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ReachabilityAAC11descriptionSSvg",
+                "mangledName": "$s12ReachabilityAAC11descriptionSSvg",
+                "moduleName": "Reachability",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ReachabilityAAC",
+        "mangledName": "$s12ReachabilityAAC",
+        "moduleName": "Reachability",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "reachabilityChanged",
+            "printedName": "reachabilityChanged",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea12ReachabilityE19reachabilityChangedABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea12ReachabilityE19reachabilityChangedABvpZ",
+            "moduleName": "Reachability",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea12ReachabilityE19reachabilityChangedABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea12ReachabilityE19reachabilityChangedABvgZ",
+                "moduleName": "Reachability",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mcdurdin\/buildAgent\/work\/fae170dc1caceadf\/keyman\/ios\/Carthage\/Checkouts\/Reachability.swift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1741,
+      "length": 33,
+      "value": "\"ReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Users\/mcdurdin\/buildAgent\/work\/fae170dc1caceadf\/keyman\/ios\/Carthage\/Checkouts\/Reachability.swift\/Sources\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1869,
+      "length": 21,
+      "value": "\"reachabilityChanged\""
+    },
+    {
+      "filePath": "\/Users\/mcdurdin\/buildAgent\/work\/fae170dc1caceadf\/keyman\/ios\/Carthage\/Checkouts\/Reachability.swift\/Sources\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3138,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mcdurdin\/buildAgent\/work\/fae170dc1caceadf\/keyman\/ios\/Carthage\/Checkouts\/Reachability.swift\/Sources\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4310,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mcdurdin\/buildAgent\/work\/fae170dc1caceadf\/keyman\/ios\/Carthage\/Checkouts\/Reachability.swift\/Sources\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4382,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
