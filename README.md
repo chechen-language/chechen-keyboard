@@ -61,7 +61,7 @@ Letters missed on Unicode are composed fallowing the `Unicode Normalization Form
 
 
 ## Layouts
-- `QWERTY (US)`
+- Chechen Latin Keyboard Layout is based on `QWERTY (US)`
 
 
 ## Links
