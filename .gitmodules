@@ -1,0 +1,20 @@
+[submodule "android"]
+	path = android
+	url = git@github.com:chechen-language/chechen-latin-keyboard-android
+	branch = main
+[submodule "ios"]
+	path = ios
+	url = git@github.com:chechen-language/chechen-latin-keyboard-ios
+	branch = main
+[submodule "windows"]
+	path = windows
+	url = git@github.com:chechen-language/chechen-latin-keyboard-windows
+	branch = main
+[submodule "linux"]
+	path = linux
+	url = git@github.com:chechen-language/chechen-latin-keyboard-linux
+	branch = main
+[submodule "macos"]
+	path = macos
+	url = git@github.com:chechen-language/chechen-latin-keyboard-macos
+	branch = main
