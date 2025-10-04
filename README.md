@@ -1,13 +1,16 @@
 # Chechen Latin Keyboard Layout for various Systems
 
-Layout for typing Chechen in Latin script using the 1992 alphabet
+Layout for typing Chechen in Latin script using the Chechen Latin alphabet
 
-- [Android](./android)
-- [iOS](./ios)
-- [Linux](./linux)
-- [MacOS](./macos)
-- [Windows](./windows)
-- [Website](./website)
+> **Also available on Keyman:** the same layout is published as **Chechen Latin (chechen_latin)** on the official Keyman platform.  
+> See: https://keyman.com/keyboards/chechen_latin
+
+- [Android](../../../chechen-latin-keyboard-android)
+- [iOS](../../../chechen-latin-keyboard-ios)
+- [Linux](../../../chechen-latin-keyboard-linux)
+- [MacOS](../../../chechen-latin-keyboard-macos)
+- [Windows](../../../chechen-latin-keyboard-windows)
+- [Web](https://keymanweb.com/#ce-latn,Keyboard_chechen_latin)
 
 ## Chechen Latin alphabet (from 1992)
 ```markdown
