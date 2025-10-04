@@ -1,9 +1,6 @@
 # Chechen Latin Keyboard Layout for various Systems
 
-[![](https://img.shields.io/badge/GitLab-Mirror-succes?link=https://gitlab.com/gushmazuko/chechen-latin-keyboard-layout)](https://gitlab.com/gushmazuko/chechen-latin-keyboard-layout)
-
 Layout for typing Chechen in Latin script using the 1992 alphabet
-
 
 - [Android](./android)
 - [iOS](./ios)
@@ -12,7 +9,6 @@ Layout for typing Chechen in Latin script using the 1992 alphabet
 - [Windows](./windows)
 - [Website](./website)
 
-
 ## Chechen Latin alphabet (from 1992)
 ```markdown
 A a Ä ä B b C c Ċ ċ Ç ç Ç̇ ç̇ D d E e Ə ə
@@ -20,7 +16,6 @@ F f G g Ġ ġ H h I i J j K k K̇ k̇ L l M m
 N n Ŋ ŋ O o Ö ö P p Ṗ ṗ Q q Q̇ q̇ R r S s
 Ş ş T t Ṫ ṫ U u Ü ü V v X x Ẋ ẋ Y y Z z Ƶ ƶ
 ```
-
 
 ## Letters to add in Latin script
 - [x] Ä ä
@@ -39,7 +34,6 @@ N n Ŋ ŋ O o Ö ö P p Ṗ ṗ Q q Q̇ q̇ R r S s
 - [x] Ü ü
 - [x] Ẋ ẋ
 - [x] Ƶ ƶ
-
 
 ## Letters missed on Unicode
 Letters missed on Unicode are composed fallowing the `Unicode Normalization Form C` ([NFC](https://unicode.org/reports/tr15/#:~:text=Normalization%20Form%20C%20uses%20canonical,already%20in%20Normalization%20Form%20C.)) 
@@ -60,14 +54,56 @@ Letters missed on Unicode are composed fallowing the `Unicode Normalization Form
 - **Unicode**: [`U+00E7`](https://www.compart.com/en/unicode/U+00E7) + [`U+0307`](https://www.compart.com/en/unicode/U+0307)
 
 
-## Layouts
-- Chechen Latin Keyboard Layout is based on `QWERTY (US)`
+## Layout
+Chechen Latin Keyboard Layout is based on `QWERTY (US)`
 
+### Computer
+
+- **Unshifted (no modifier keys pressed):**
+<p align="center">
+   <img src="https://i.imgur.com/0d1jSse.png"/>
+</p>
+
+- **Shifted:**
+<p align="center">
+   <img src="https://i.imgur.com/cpZCkbK.png"/>
+</p>
+
+- **AltGr (Right Alt):**
+<p align="center">
+   <img src="https://i.imgur.com/Ea9A3xB.png"/>
+</p>
+
+- **AltGr (Right Alt) + Shift:**
+<p align="center">
+   <img src="https://i.imgur.com/dE5t0CJ.png"/>
+</p>
+
+### Mobile
+
+- **Default (no modifier keys pressed):**
+<p align="center">
+   <img src="https://i.imgur.com/96KLwyN.png"/>
+</p>
+
+- **Shift:**
+<p align="center">
+   <img src="https://i.imgur.com/5kGKl2B.png"/>
+</p>
+
+- **AltGr (Long press):**
+<p align="center">
+   <img src="https://i.imgur.com/5AXGbRK.png"/>
+</p>
+
+- **AltGr + Shift (Long press):**
+<p align="center">
+   <img src="https://i.imgur.com/2b5Z4fU.png"/>
+</p>
 
 ## Links
 - [UNICODE NORMALIZATION FORMS](https://unicode.org/reports/tr15/)
 - [Unicode characters](https://www.compart.com/en/unicode/)
-
 
 ## References
 - [Chechen alphabet based on Latin script](https://vk.com/noxmott?w=wall-69239228_12459)
