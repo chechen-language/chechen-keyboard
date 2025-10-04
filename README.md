@@ -61,9 +61,7 @@ Letters missed on Unicode are composed fallowing the `Unicode Normalization Form
 
 
 ## Layouts
-- [x] `QWERTY (US)`
-- [ ] `QWERTZ (German)`  
-- [ ] `AZERTY (French)` 
+- `QWERTY (US)`
 
 
 ## Links
@@ -72,5 +70,4 @@ Letters missed on Unicode are composed fallowing the `Unicode Normalization Form
 
 
 ## References
-- [Resolution of the Parliament of the Chechen Republic on the approval of the Chechen alphabet based on Latin script](https://archive.org/details/ChR-alphabet-1992)
 - [Chechen alphabet based on Latin script](https://vk.com/noxmott?w=wall-69239228_12459)
